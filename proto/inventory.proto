@@ -12,6 +12,7 @@ service InventoryService {
     }
 }
 
+
 message Empty{}
 
 message ProductResponse {

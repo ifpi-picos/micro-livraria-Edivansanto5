@@ -42,6 +42,7 @@ app.get('/shipping/:cep', (req, res, next) => {
     );
 });
 
+
 app.get('/product/:id', (req, res, next) => {
     // Chama método do microsserviço.
     inventory.SearchProductByID({ id: req.params.id }, (err, product) => {
